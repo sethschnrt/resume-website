@@ -8,7 +8,7 @@ This website contains information about it's creator, Seth Schoenert. It's purpo
 Development of this website is still in progress.
 
 ## Visuals
-Here is a link to the finished site: 
+Here is a link to the finished site: https://sethschnrt.github.io/resume-website/
 
 ## Support
 For any issues with the website or any questions about its configuration, contact seth.schoenert@gmail.com via email.
