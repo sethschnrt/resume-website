@@ -61,7 +61,8 @@ nav a {
     padding: 15px 20px;
     text-decoration: none;
     color: var(--white);
-    margin-left: 175px;
+    
+    margin-left: 250px;
     
 }
 nav a:hover {
@@ -72,8 +73,6 @@ main {
     flex-wrap: wrap;
     flex-direction: vertical;
     text-align: left;
-    margin-right: 300px;
-    margin-left: -1000px;
   }
   
 .About-Me {
@@ -89,17 +88,22 @@ main {
 
 .headshot-image img{
     height: 200px;
-    margin-left:35%;
+    float: left;
     border: solid 2px var(--white);
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 .Work  {
    
-margin-top: -350px;
+
     
 }
  
+.big-photo {
+    
+}
+
 footer {
     margin-top: 20px;
     background-color: var(--black);
@@ -129,8 +133,18 @@ footer {
     flex-wrap: wrap;
     
 }
+
+.Surf-Image {
+    width: 1000px;
+    border-color: var(--black);
+    border-style: solid;
+    border-width: 2px;
+    justify-content: space-evenly;
+    display:flex;
+    flex-wrap: wrap;
+}
   
-.content {
+.content-1 {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -140,7 +154,7 @@ footer {
     
 }
 
-.content h3 {
+.content-1 h3 {
     display: inline-block;
     width: 25%;
     vertical-align: middle;
@@ -149,7 +163,7 @@ footer {
     align-items: center;
 }
 
-.content p {
+.content-1 p {
     display: inline-block;
     width: 60%;
     margin-left: 20px;
@@ -182,10 +196,23 @@ footer {
     padding-top: 10px;
 }
 
+.section-columns {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
 @media screen and (max-width: 768px) {
-    main,
-    body,
-    .content {
-      flex-direction: column;
+    
+    .content-1 {
+      display: flex;
+        flex-direction: row;
+        margin: 0px;
     }
+   h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
   }
